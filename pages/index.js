@@ -17,12 +17,13 @@ export default function Home() {
     deactivate()
     localStorage.removeItem('previuslyConnested')
   }
+  useEffect(() => {
+    if (localStorage.getItem('previuslyConnested') === 'true')
+      connect()
+  }, [connect])
+  
   if (error) {
 
-    useEffect(() => {
-      if (localStorage.getItem('previuslyConnested') === 'true')
-        connect()
-    }, [connect])
 
     return <p>algo ha ido mal </p>
   }
