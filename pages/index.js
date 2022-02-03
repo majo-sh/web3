@@ -21,11 +21,13 @@ export default function Home() {
     if (localStorage.getItem('previuslyConnested') === 'true')
       connect()
   }, [connect])
-  
+
   if (error) {
 
 
-    return <p>algo ha ido mal </p>
+    return <p className={styles.text} > Algo ha ido mal <br />
+   Es nesesario tener la extencion de MetaMask en el navegador <br />
+   Es nesesario dar permisos a la app </p>
   }
 
   return (
