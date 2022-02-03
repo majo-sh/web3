@@ -6,6 +6,6 @@ Esta app permite conectar una wallet de la red Etherium y ver el hash publico de
 
 ES nesesario tener una wallet en la red Etherium con MetaMask
 
-## link 
+## Link del proyecto
 
 [proyecto](https://web3-tau.vercel.app/)
