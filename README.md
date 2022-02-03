@@ -4,5 +4,8 @@ Este es un proyecto realizado para practicar la integracion de web3 con proyecto
 
 Esta app permite conectar una wallet de la red Etherium y ver el hash publico de quien se conecte.
 
+ES nesesario tener una wallet en la red Etherium con MetaMask
 
+## link 
 
+[proyecto](https://web3-tau.vercel.app/)
