@@ -4,7 +4,9 @@ Este es un proyecto realizado para practicar la integracion de web3 con proyecto
 
 Esta app permite conectar una wallet de la red Etherium y ver el hash publico de quien se conecte.
 
-ES necesario tener una wallet en la red Etherium con MetaMask
+## Requerimientos
+
+Es necesario tener una wallet en la red Etherium con MetaMask
 
 ## Link del proyecto
 
